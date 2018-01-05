@@ -14,7 +14,7 @@ Existen dos versiones principales de Python: Python 2 y Python 3. En este curso 
 
 ## Instalación
 
-Python puede er instalado desde 
+Python puede ser instalado desde 
 
 > http://www.python.org
 
@@ -68,6 +68,19 @@ print(type(e))
 print(type(f))
 ~~~
 
+**Operadores**
+
+~~~py
++ Suma
+- Resta
+* Multiplicación
+** Exponente
+/ División
+// División entera
+% Modulo
+
+~~~
+
 ## Numeros, Cadenas y Booleanos
 
 En Python podemos representar números enteros, reales y complejos: `int`, `float` y `complex`.
@@ -76,8 +89,22 @@ Las cadenas se representan entre comillas simples o dobles. Caracteres especiale
 
 Los booleanos sólo pueden tener dos valores: True y False. 
 
-## Listas, Tuplas y Diccionarios
+**Operadores lógicos**
 
+~~~py
+and 
+or
+not
+== valores iguales
+!= valores distintos
+<
+>
+<=
+>=
+~~~
+
+## Listas, Tuplas y Diccionarios
+**Listas**
 Las listas son colecciones ordenadas (arrays o vectores), que pueden contener números, cadenas, booleanos y listas. 
 
 ~~~py
@@ -103,7 +130,7 @@ a = l[1:]
 b = l[:2]
 c = [:]
 ~~~
-
+**Tuplas**
 Las tuplas se definen entre paréntesis. Las tuplas, a diferencia de las listas, son inmutables y tienen un tamaño fijo. 
 
 ~~~py 
@@ -115,5 +142,18 @@ print(type(t))
 a = t[0]
 
 ~~~
+**Diccionarios**
+Los diccionarios son colecciones que relacionan una clave y un valor. Por ejemplo:
 
-Los diccionarios son colecciones que relacionan una clave y un valor
+~~~py 
+m = {"materia": "python",
+      "profesor": "Perengano Godinez",
+       "escuela": "UAM"}      
+
+#Se accede a los elementos de un diccionario por su clave.
+
+d["materia"] 
+
+~~~
+
+
