@@ -46,7 +46,27 @@ python hola.py
 
 # Tipos y Colecciones
 
+** Recordemos: ** No es necesario declarar el tipo de variable. Cada variable en Python es un objeto. 
 
+Tipos: números, cadenas de texto, booleanos
+
+Colecciones de datos: listas, tuplas y diccionarios
+
+~~~py
+# cadena de texto
+c = "hola mundo"
+
+# entero
+e = 23
+
+# float
+
+f = 7.3
+
+print(type(c))
+print(type(e))
+print(type(f))
+~~~
 
 
 ## Numeros, Cadenas y Booleanos
