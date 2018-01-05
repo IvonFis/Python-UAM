@@ -46,7 +46,7 @@ python hola.py
 
 # Tipos y Colecciones
 
-** Recordemos: ** No es necesario declarar el tipo de variable. Cada variable en Python es un objeto. 
+**Recordemos:** No es necesario declarar el tipo de variable. Cada variable en Python es un objeto. 
 
 Tipos: números, cadenas de texto, booleanos
 
@@ -68,7 +68,52 @@ print(type(e))
 print(type(f))
 ~~~
 
-
 ## Numeros, Cadenas y Booleanos
 
+En Python podemos representar números enteros, reales y complejos: `int`, `float` y `complex`.
+
+Las cadenas se representan entre comillas simples o dobles. Caracteres especiales: nueva línea `\n`, tabulación `\t`, etc.
+
+Los booleanos sólo pueden tener dos valores: True y False. 
+
 ## Listas, Tuplas y Diccionarios
+
+Las listas son colecciones ordenadas (arrays o vectores), que pueden contener números, cadenas, booleanos y listas. 
+
+~~~py
+
+l = [22, True, "hola" [3,4]]
+
+# acceder a los elementos de una lista
+
+uno = l[0]
+ultimo = l[4][0]
+
+# asignacion
+
+l[0] = 33
+
+# acceder al ultimo elemento 
+
+u = l[-1]
+
+# slicing
+
+a = l[1:]
+b = l[:2]
+c = [:]
+~~~
+
+Las tuplas se definen entre paréntesis. Las tuplas, a diferencia de las listas, son inmutables y tienen un tamaño fijo. 
+
+~~~py 
+t = (1,)
+print(type(t))
+
+# acceder a los elementos de una tupla
+
+a = t[0]
+
+~~~
+
+Los diccionarios son colecciones que relacionan una clave y un valor
