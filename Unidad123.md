@@ -30,10 +30,24 @@ information.
 
 ## Hello World! 
 
+> Intérprete
 
+> Código fuente y ejecutándolo
 
+~~~py
+print("Hello World")
+print("Hola Mundo")
+~~~
+Para ejecutar el programa sólo es necesario indicar el nombre del archivo al intérprete de Python
+
+~~~py
+python hola.py
+~~~
 
 # Tipos y Colecciones
+
+
+
 
 ## Numeros, Cadenas y Booleanos
 
