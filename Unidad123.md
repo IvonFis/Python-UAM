@@ -129,7 +129,24 @@ u = l[-1]
 a = l[1:]
 b = l[:2]
 c = [:]
+
+# Estructura de datos
+
+# list.append(x), list.instert(i,x), list.remove(x), list,count(x)
+
+a = [66.25, 333, 333, 1, 1234.5]
+print(a.count(333), a.count(66.25), a.count('x'))
+
+# Resultado 2 1 0
+
+a.insert(2, -1)
+a.append(333)
+# Resultado  a [66.25, 333, -1, 333, 1, 1234.5, 333]
+
+a.remove(333)
+# Resultado a [66.25, -1, 333, 1, 1234.5, 333]
 ~~~
+
 **Tuplas**
 Las tuplas se definen entre paréntesis. Las tuplas, a diferencia de las listas, son inmutables y tienen un tamaño fijo. 
 
@@ -155,5 +172,3 @@ m = {"materia": "python",
 d["materia"] 
 
 ~~~
-
-
