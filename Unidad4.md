@@ -80,7 +80,7 @@ if orden in ["papas", "hamburguesa"]:
   print("Aun tenemos papas")
 ~~~
 
-## Bucles
+## Bucles (*loop*)
 
 ¿Cómo crearía un programa que escribiera los primeros 6 números pares? ¿los primeros 1000?
 
