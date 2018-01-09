@@ -19,6 +19,18 @@ if a > 2:
 if a > 2:
   print("tu numero es menor que 5")
 print("adios")
+
+# nota importante
+s= "hello"
+f = 1.0
+i = 40
+
+if s == "hello":
+    print("String: %s" % s)
+if f == 1.0:
+    print("Float: %f" % f)
+if i == 40:
+    print("Integer: %d" % i)
 ~~~
 
 **if... else**
@@ -30,7 +42,7 @@ a == "hamburguesa"
 if a == "hamburguesa":
   print("tu orden esta lista")
  else: 
-  print("lo sentimos, nos quedamos sin hambueguesas")
+  print("lo sentimos, nos quedamos sin hamburguesas")
 ~~~
 
 **if ... elif... elif... else**
@@ -48,10 +60,52 @@ else:
   print("tu numero es 0")
   ~~~
 
-Como notarás la primera condición evaluada es `a < 0`, al no cumplir la condición 
+Como notarás la primera condición evaluada es `if a < 0:`, si no se cumple la confición elavula la condicion `elif a > 0:`, de nuevo, si no cumple ninguna condición sucesiva `elif` ejecuta el código `else:`.
 
+**Operadores**
+ 
+**Booleanos** Este tipo de operador permite usar expresiones booleanas al evaluar una condición if.
+
+**in** Este operador permite evaluar si determinados objetos existen dentro de un objeto "contenedor", como una lista
+
+Por ejemplo: 
+
+~~~py
+orden = "papas"
+tiempo = 30
+
+if orden == "papas" and tiempo == 30:
+  print("Tu orden esta lista")
+  
+if orden in ["papas", "hamburguesa"]:
+  print("Aun tenemos papas")
+~~~
 
 ## Bucles
+
+¿Cómo crearía un programa que escribiera los primeros 6 números pares? ¿los primeros 1000?
+
+
+El control de flujo que nos permite ejecutar un mismo fragmento de código mientras se cumpla una determianda condición se llama bucle y podemos ejecutarlo con la palabra `while` y `for`, por ejemplo: 
+
+~~~py
+edad = 0 
+while edad < 18:
+  edad = edad + 1
+  print("Tienes %d" %edad)
+
+# o bien
+
+edad = 0 
+while edad < 18:
+  edad += 1
+  print("Tienes %d" %edad)
+~~~
+
+La variable comienza valiendo 0, la edad aumenta de 1 en 1 hasta que deje de cumplirse la condición `edad < 18`. 
+
+
+
 
 ## Ejercicios
 
