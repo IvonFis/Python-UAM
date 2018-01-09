@@ -1,6 +1,6 @@
 # Control de flujo
 
-## Secuencuas condicionales
+## Secuencias condicionales
 
 Con las secuencias condicionales podemos elegir entre dos rutas diferentes basadas en un valor booleano.  
 
@@ -51,14 +51,13 @@ if a == "hamburguesa":
 
 ~~~py
 a = 0
-
 if a < 0:
   print("tu numero es negativo")
 elif a > 0:
   print("tu numero es positivo")
 else:
   print("tu numero es 0")
-  ~~~
+~~~
 
 Como notarás la primera condición evaluada es `if a < 0:`, si no se cumple la confición elavula la condicion `elif a > 0:`, de nuevo, si no cumple ninguna condición sucesiva `elif` ejecuta el código `else:`.
 
@@ -85,7 +84,6 @@ if orden in ["papas", "hamburguesa"]:
 
 ¿Cómo crearía un programa que escribiera los primeros 6 números pares? ¿los primeros 1000?
 
-
 El control de flujo que nos permite ejecutar un mismo fragmento de código mientras se cumpla una determianda condición se llama bucle y podemos ejecutarlo con la palabra `while` y `for`, por ejemplo: 
 
 ~~~py
@@ -103,6 +101,34 @@ while edad < 18:
 ~~~
 
 La variable comienza valiendo 0, la edad aumenta de 1 en 1 hasta que deje de cumplirse la condición `edad < 18`. 
+
+**for**
+
+
+
+
+**break and continue**
+
+**break** Usamos la palabra `break` para salir de un loop (`for` o `while`)
+
+**continue** Usamos la palabra `continue` para saltar la condición y regresar a la condición (`for` o `while`).
+
+Por ejemplo, 
+
+~~~py
+edad = 0
+while True: 
+  print(edad)
+  edad += 1
+  if edad >= 5:
+    break
+
+for x in range(10):
+  if x % 3 == 0:
+    continue
+  print(x)
+~~~
+
 
 
 
