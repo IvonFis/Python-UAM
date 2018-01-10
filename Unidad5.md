@@ -26,11 +26,9 @@ print(fun3)
 
 ## Ejercicios
 
-* Analice el siguiente programa ¿identifica todos los métodos utilizados? ¿cuál es el resultado? Bajo el mismo razonamiento realice un programa que resulte en la aproximación de la integral de la función `f(x) = x**2 + 3x -5` para `x=8`.
+* Analice el siguiente programa ¿identifica todos los métodos utilizados? ¿cuál es el resultado? Bajo el mismo razonamiento realice un programa que resulte en la aproximación de la integral de la función `f(x) = x**2 + 3x - 5` para `x=8`.
 
 ~~~py
-#APROXIMACION DE INTEGRAL
-
 a = 0
 b = 3
 n = 5
