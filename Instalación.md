@@ -1,8 +1,8 @@
-### Prerrequisitos
+# Prerrequisitos
 
 ## 1. Instalacion de Anaconda
 
-# Linux
+### Linux
 
 1. Descargar el instalador de la siguiente liga:
    - https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh (64 bits)
@@ -26,7 +26,7 @@ source .bashrc
 conda list
 ```
 
-# macOs
+### MacOs
 
 1. Descargar el instalador de la siguiente liga:
    - https://repo.continuum.io/archive/Anaconda3-5.0.1-MacOSX-x86_64.pkg
@@ -40,7 +40,7 @@ conda list
 conda list
 ```
 
-# Windows
+### Windows
 
 1. Descargar el instalador de la siguiente liga:
    - https://repo.continuum.io/archive/Anaconda3-5.0.1-Windows-x86_64.exe
@@ -105,37 +105,37 @@ Para la instalacion de los paquetes en un ambiente virtual es necsatio activar e
   activate UAM
   ```
 
-# Numpy
+### Numpy
 Libreria para el manejo de matrices y sus operaciones
 ```
 pip install numpy
 ```
 
-# Pillow
+### Pillow
 Libreria para la manipulacion de Imagenes
 ```
 pip install pillow
 ```
 
-# OpenCV
+### OpenCV
 Libreria para manipulacion y segmentacion de imagenes
 ```
 conda install opencv -c menpo
 ```
 
-# Matplotlib
+### Matplotlib
 Libreria para crear graficas en 2D y 3D
 ```
 pip install matplotlib
 ```
 
-# Scikit-image
+### Scikit-image
 Libreria para manipulacion de imagenes
 ```
 pip install scikit-image
 ```
 
-# pyDicom
+### pyDicom
 Libreria para la manipulacion de imagenes medicas en formato DICOM
 ```
 pip install pydicom
