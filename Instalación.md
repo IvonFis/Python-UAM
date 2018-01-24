@@ -57,9 +57,9 @@ conda list
 
 ## 2. Creacion de un Ambiente virtual
 
-Para crear un ambiente virtial es necesario utilizar la siguiente instruccion en la temrinal:
+Para crear un ambiente virtial es necesario utilizar la siguiente instruccion en la terminal:
 ```
-conda create --name <nombre> python==<version>
+conda create --name *<nombre>* python==<version>
 ```
 donde <nombre> es el nombre que se desee darle al ambiente virtual y <version> es alguna version de Python. En el caso de este curso utilizaremos el nombre "UAM" y la version de Python mas reciente, la 3.6. De esta forma:
 ```
