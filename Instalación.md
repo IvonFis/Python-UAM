@@ -4,6 +4,31 @@
 
 ### Linux
 
+<details>
+  <summary>Linux</summary>
+  1. Descargar el instalador de la siguiente liga:
+   - https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh (64 bits)
+   - https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86.sh (32 bits)
+
+2. Ejecutar la siguiente instruccion en la terminal:
+```
+bash Anaconda3-5.0.1-Linux-x86_64.sh
+```
+
+3. Aceptar todos los comandos por default.
+
+4. Cerrar y abrir una nueva terminal para que los cambios tengan efecto o reiniciar la terminal con las instrucciones:
+```
+cd
+source .bashrc
+```
+
+5. Para probar que Anaconda se instalo correctamente, ejecutar:
+```
+conda list
+```
+</details>
+
 1. Descargar el instalador de la siguiente liga:
    - https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86_64.sh (64 bits)
    - https://repo.continuum.io/archive/Anaconda3-5.0.1-Linux-x86.sh (32 bits)
