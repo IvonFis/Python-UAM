@@ -11,9 +11,6 @@ for x in numbers:
 print(par)
 
 # PROBLEMA 2
-
-a = 1
-b = 1
 O = " "
 X = "#"
 c = ""
