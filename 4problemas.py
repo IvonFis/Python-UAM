@@ -47,24 +47,7 @@ for x in range(1, 100):
         print(x)
 
 # PROBLEMA 5
-
-f1 = 1
-f2 = 1
-
-f = [1,1]
-
-for i in range(2, 20):
-    fi = f1 + f2
-    f.append(fi)
-    f2 = f1
-    f1 = fi
-
-print(f)
-
-for z in f:
-    if z % 2 == 0:
-        print(z)
-
+#TAREA
 
 
 
