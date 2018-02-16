@@ -2,7 +2,7 @@
 
 En Python podemos importar o exportar bases de datos, hojas de cálculo o cualquier tipo de información almacenada como un archivo de texto (caracter por caracter) tipo **.csv** (comma separated values)  o **.txt.**.
 
-## Creación de archivos
+## Lectura y escritura de archivos .csv y .txt
 
 Analice el siguiente ejemplo: 
 
@@ -14,8 +14,13 @@ for x in lista:
 f.close()
 ~~~
 
-## Lectura de archivos .csv y .txt
+Analice el siguiente ejemplo: 
 
-## Escritura de archivos .csv y .txt
+~~~py
+f = open("primer.txt", "r")
+for linea in f: 
+  print("Contenido: {}".format(linea))
+f.close()
+~~~
 
 ## Ejercicios
