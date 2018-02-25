@@ -26,6 +26,42 @@ print(fun3)
 
 ## Ejercicios
 
+* a) Crea un programa que calcule el área de un cuadrado. b) Crea un programa que calcule el volumen de un cubo. c) Generalice este caso para un n-cubo.
+
+~~~py
+def Area(l):
+  """
+  Calcula el área de un cuadrado.
+  Argumentos:
+    l - [Float] Lado del cuadrado.
+  Devuelve:
+    [Float] Area del cuadrado.
+  """
+  return l**2
+
+def Volumen(l):
+  """
+  Calcula el volumen de un cubo.
+  Argumentos:
+    l - [Float] Lado del cubo.
+  Devuelve:
+    [Float] Volumen del cubo.
+  """
+  return l**3
+
+def N-Volumen(l,n):
+  """
+  Calcula el volumen de un n-cubo.
+  Argumentos:
+    l - [Float] Lado del n-cubo.
+    n - [Int] Dimension
+  Devuelve:
+    [Float] Volumen del n-cubo.
+  """
+  return l**n
+
+~~~
+
 * Analice el siguiente programa ¿identifica todos los métodos utilizados? ¿cuál es el resultado? Bajo el mismo razonamiento realice un programa que resulte en la aproximación de la integral de la función `f(x) = x**2 + 3x - 5` para `x=8`.
 
 ~~~py
