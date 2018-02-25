@@ -4,7 +4,7 @@
 
 * Write a Python program to convert temperatures to and from celsius, fahrenheit.
 
-* Write a Python program that accepts a word from the user and reverse it.
+* **Write a Python program that accepts a word from the user and reverse it.** NO OPCIONAL
 
 * Write a Python program that prints all the numbers from 0 to 6 except 3 and 6.
 
