@@ -22,6 +22,7 @@
 
 *  Write a Python program to construct the following pattern, using a nested loop number. 
 
+~~~py
 1
 22
 333
@@ -31,6 +32,7 @@
 7777777
 88888888
 999999999
+~~~
 
 ## Funciones
 
