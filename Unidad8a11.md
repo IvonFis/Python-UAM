@@ -18,24 +18,42 @@ and measuring region and image properties of an object.
 
 # Mejoramiento de una imágen
 
-## Operaciones puntuales, locales y globales
-
 ## Histograma de una imagen 
+
+**ver: ImageJ**
+
+<img src="http://hamamatsu.magnet.fsu.edu/articles/images/digitalimagesfigure7.jpg" alt="">
+
+<img src="https://static1.olympus-lifescience.com/data/olympusmicro/primer/digitalimaging/images/processintro/processintrofigure5.jpg?rev=6432" alt="">
 
 ## Ruido
 
+<img src="https://image.slidesharecdn.com/digitalimageprocessingcomputergraphics-170418110846/95/digital-image-processing-amp-computer-graphics-12-638.jpg?cb=1492513758" alt="">
+
 # Segmentación de imágenes
+
+Segmentation partitions an image into distinct regions containing each pixels with similar attributes.
 
 ## Umbralado
 
+Ver: https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic3.htm
+
 ## Detección de bordes y líneas 
+
+Ver: https://arxiv.org/pdf/1707.02051.pdf y https://ch.mathworks.com/discovery/edge-detection.html
 
 ## Operador de Canny 
 
-# Morfología matemática
+Teoría: http://fourier.eng.hmc.edu/e161/lectures/canny/node1.html
+
+**OpenCV**
+Teoría:
+
+Ver: https://www.cs.auckland.ac.nz/courses/compsci773s1c/lectures/ImageProcessing-html/topic4.htm y http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html
+
 
 ## Definiciones fundamentales 
 
 ## Dilatación y Erosión 
 
-## Máscaras 
+Ver: https://ch.mathworks.com/help/images/morphological-dilation-and-erosion.html 
